@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather Station</string>
+    <string name="main_splash_title">Weather Station</string>
+    <string name="main_splash_subtitle">OpenWeather Android Test</string>
+    <string name="main_splash_subtitle_author">Developed by Ciro Rizzo</string>
+    <string name="none"></string>
+    <string name="title_activity_weather_main_list">Weather Station List</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="location_name_def">Location Name</string>
+    <string name="act_temp_def">Act Temp</string>
+    <string name="min_temp_def">Min Temp</string>
+    <string name="max_temp_def">Max Temp</string>
+    <string name="description_def">Description</string>
+	<string name="min_label">Min %1s</string>
+    <string name="max_label">Max %1s</string>
+    
+    <string name="pls_wait_label">Please wait&#8230;</string>
+    <string name="localizing_your_position">Localizing your position</string>
+    <string name="downloading_weather_data">Downloading Weather Data</string>
+    
+    <string name="dialog_button_gotcha">OK, Got it!</string>
+    
+    <string name="dialog_title_gps_unavailble">GPS Unavailable</string>
+    <string name="dialog_message_gps_unavailble">Seems no GPS or Network positionis available at the moment\nThe App will take the last position caught</string>
+    
+    <string name="dialog_title_gps_no_signal">GPS No Signal</string>
+    <string name="dialog_message_gps_no_signal">No signal from GPS or Network at the moment\nThe App will take the last position caught</string>
+    
+    <string name="dialog_title_gps_not_good_signal_yet">GPS does not good Signal</string>
+    <string name="dialog_message_gps_not_good_signal_yet">The App will take the last position caught</string>
+    
+    <string name="dialog_title_network_unavailable">Connectivity do not available</string>
+    <string name="dialog_message_network_unavailable">The App will take the last weather data saved</string>
+    
+    <string name="dialog_title_network_unavailable_db_too">Connectivity isn\'t available</string>
+    <string name="dialog_message_network_unavailable_db_too">The App couldn\'t take the last weather data saved because not present\nTry later\nThe App will be closed</string>
+    
+</resources>
