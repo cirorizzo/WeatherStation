@@ -15,7 +15,7 @@ public class WeatherConst {
 	public static final String TAG_LOG = "WeatherSatation";
 	public static final boolean DEBUG_MODE = false;
 
-	public static final String OPENWEATHER_APPID = "4ae590b8032bf397cce699a1e270bd25";
+	public static final String OPENWEATHER_APPID = "...";
 	
 	public static final String DEF_STR = "";
 	public static final int DEF_INT = -1;
