@@ -15,13 +15,34 @@ android:
     - build-tools-22.0.1
 
     # The SDK version used to compile your project
-    - android-19
+    - android-22
 
     # Additional components
     - extra-google-google_play_services
     - extra-google-m2repository
     - extra-android-m2repository
     - addon-google_apis-google-22
+    - accessibility-test-framework-2.0
+    - appcompat-v7-22.2.1
+    - espresso-contrib-2.2
+    - espresso-core-2.2
+    - espresso-idling-resource-2.2
+    - espresso-intents-2.2
+    - exposed-instrumentation-api-publish-0.3
+    - hamcrest-core-1.3
+    - hamcrest-integration-1.3
+    - hamcrest-library-1.3
+    - javawriter-2.1.1
+    - javax.annotation-api-1.2
+    - javax.inject-1
+    - jsr305-2.0.1
+    - junit-4.12
+    - recyclerview-v7-22.2.0
+    - rules-0.3
+    - runner-0.3
+    - support-annotations-22.2.1
+    - support-v4-22.2.0
+    - support-v4-22.2.1
 
     # Specify at least one system image,
     # if you need to run emulator(s) during your tests
@@ -45,4 +66,4 @@ android:
 
 script:
   - android list target
-  - ./gradlew connectedAndroidTest
+  - ./gradlew build connectedCheck
