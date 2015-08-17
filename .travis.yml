@@ -1,8 +1,8 @@
 language: android
-cache:
-  directories:
-   - node_modules
-sudo: false
+#cache:
+  #directories:
+   #- node_modules
+#sudo: false
 
 android:
   components:
